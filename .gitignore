@@ -1,0 +1,27 @@
+# === Environnements virtuels ===
+venv/
+ENV/
+env/
+.env
+
+# === Python compilé ===
+__pycache__/
+*.py[cod]
+*.pyo
+
+# === Base de données locale ===
+db.sqlite3
+
+# === Fichiers de logs ===
+*.log
+
+# === Fichiers de config Django ===
+*.pot
+
+# === Fichiers statiques et médias générés ===
+staticfiles/
+media/
+
+# === Fichiers IDE (VSCode, PyCharm, etc.) ===
+.vscode/
+.idea/
